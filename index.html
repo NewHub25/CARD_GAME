@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CARD GAME VANILLA JS</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="header-title-container">
+        <h1>Hunt the Ace</h1>
+      </nav>
+      <nav class="header-round-info-container">
+        <header class="header-img-container">
+          <img class="header-img" src="./images/AceSpades.png" alt="AceSpades" />
+        </header>
+        <header class="header-score-container">
+          <h2 class="score">Score&nbsp;<span class="badge">0</span></h2>
+        </header>
+        <header class="header-round-container">
+          <h2 class="round">Round&nbsp;<span class="badge">0</span></h2>
+        </header>
+      </nav>
+      <nav class="header-status-info-container">
+        <p class="current-status">Click 'Play Game' button to play game</p>
+      </nav>
+      <nav class="header-button-info-container">
+        <section class="game-play-button-container">
+          <button id="playGame" class="play-game">Play Game</button>
+        </section>
+      </nav>
+    </header>
+    <main>
+      <nav class="card-container">
+        <!--
+        <section class="card">
+          <article class="card-inner">
+            <div class="card-front">
+              <img
+                src="./images/card-JackClubs.png"
+                alt="JackClubs"
+                class="card-img"
+              />
+            </div>
+            <div class="card-back">
+              <img
+                src="./images/card-back-Blue.png"
+                alt="backBlue"
+                class="card-img"
+              />
+            </div>
+          </article>
+        </section>
+      -->
+        <section class="card-pos card-pos-a"></section>
+        <section class="card-pos card-pos-b"></section>
+        <section class="card-pos card-pos-c"></section>
+        <section class="card-pos card-pos-d"></section>
+      </nav>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
